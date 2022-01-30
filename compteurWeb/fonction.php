@@ -2,7 +2,6 @@
 
 function ajouter_vue(){
     $fichier = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'projet' . DIRECTORY_SEPARATOR . 'compteurWeb'. DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'compteur';
-    
     $compteur = 1;
     if (file_exists($fichier)) {
         // si le fichier existe on incrémente 
