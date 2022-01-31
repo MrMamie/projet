@@ -1,5 +1,5 @@
 <?php
-$curl = curl_init('https://api.openweathermap.org/data/2.5/weather?q=Arnouville&appid=77540fb3c333b481273724a61114236e&units=metric&lang=fr');
+$curl = curl_init('https://api.openweathermap.org/data/2.5/weather?q=Arnouville&appid={apikey}&units=metric&lang=fr');
 curl_setopt_array($curl,[
    CURLOPT_CAINFO => __DIR__ . DIRECTORY_SEPARATOR . 'cert.cer',
    CURLOPT_RETURNTRANSFER => true,
